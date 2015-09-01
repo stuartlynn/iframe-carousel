@@ -3,9 +3,12 @@ Ref:
 Thanks to:
 http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
 */
-
+html {
+  min-height: 100%;
+}
 body {
- background-color:#eee;   
+ background-color:#eee;
+ min-height: 100%;   
 }    
 
 #pinBoot {
@@ -42,3 +45,4 @@ stylize any heading tags withing white-panel below
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
