@@ -154,6 +154,13 @@ body {
 }/* CSS Document */
 
 
+.carousel-control {
+    top: 50% !important;
+    bottom: auto !important;
+    height: 64px;
+    width: 64px;
+}
+
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
       width: 64px;
     height: 64px;
